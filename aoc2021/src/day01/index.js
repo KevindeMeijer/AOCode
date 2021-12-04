@@ -7,13 +7,13 @@ const part1 = (rawInput) => {
 
   const max = input.length -1;
 
-  let increases = 0;
+  let increase = 0;
 
   for (let i = 0; i < max; i++) {
-    input[i + 1] > input[i] && increases++;
+    input[i + 1] > input[i] && increase++;
   }
 
-  return increases;
+  return increase;
 };
 
 const part2 = (rawInput) => {
